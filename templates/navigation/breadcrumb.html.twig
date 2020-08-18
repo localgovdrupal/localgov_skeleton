@@ -13,9 +13,9 @@
   <ol>
     {% for key, item in breadcrumb %}
     {% if item.url %}
-    <li class="breadcrumb-item"><a href="{{ item.url }}">{{ item.text }}</a></li>
+    <li><a href="{{ item.url }}">{{ item.text }}</a></li>
     {% else %}
-    <li class="breadcrumb-item">{{ item.text }}</li>
+    <li>{{ item.text }}</li>
     {% endif %}
     {% endfor %}
   </ol>
