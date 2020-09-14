@@ -1,4 +1,4 @@
-name: Test LocalGov Drupal ${{ github.repository }}
+name: Test LocalGov Drupal
 
 on:
   push:
