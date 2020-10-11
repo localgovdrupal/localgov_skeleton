@@ -5,6 +5,9 @@ core_version_requirement: ^8.8 || ^9
 
 base theme: classy
 
+libraries:
+  - localgov_skeleton/global
+
 regions:
   header: "Header"
   search: "Search"
