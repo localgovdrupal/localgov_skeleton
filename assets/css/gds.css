@@ -95,14 +95,14 @@ button:focus, html input[type="button"]:focus, input[type="reset"]:focus, input[
  * This might be where it would be nice to have a bit of css
  * computation rather than then em. Some of this doesn't add up.
  */
-.form-item-radio {
+.form-item.form-type-radio {
   position: relative;
   padding-left: 2.3em;
   min-height: 2em;
   margin-bottom: 0.5em;
 }
 
-.form-item-radio input[type="radio"] {
+.form-item.form-type-radio input[type="radio"] {
   cursor: pointer;
   position: absolute;
   z-index: 1;
@@ -114,12 +114,12 @@ button:focus, html input[type="button"]:focus, input[type="reset"]:focus, input[
   margin: 0;
 }
 
-.form-item-radio label {
+.form-item.form-type-radio label {
   display: inline-block;
   padding: 0.5em 1em;
 }
 
-.form-item-radio label::before {
+.form-item.form-type-radio label::before {
   content: "";
   box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -133,7 +133,7 @@ button:focus, html input[type="button"]:focus, input[type="reset"]:focus, input[
   background: transparent;
 }
 
-.form-item-radio label::after {
+.form-item.form-type-radio label::after {
   content: "";
   position: absolute;
   top: 0.6em;
@@ -147,7 +147,7 @@ button:focus, html input[type="button"]:focus, input[type="reset"]:focus, input[
 }
 
 /* If the templates allow users to change label/input order it'll break */
-.form-item-radio input:checked + label::after {
+.form-item.form-type-radio input:checked + label::after {
   opacity: 1;
 }
 
