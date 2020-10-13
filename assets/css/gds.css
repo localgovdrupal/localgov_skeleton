@@ -147,6 +147,11 @@ button:focus, html input[type="button"]:focus, input[type="reset"]:focus, input[
 }
 
 /* If the templates allow users to change label/input order it'll break */
+.form-item.form-type-radio input:focus + label::before {
+  -webkit-box-shadow:0 0 0 4px #fd0;
+  box-shadow:0 0 0 4px #fd0;
+}
+
 .form-item.form-type-radio input:checked + label::after {
   opacity: 1;
 }
@@ -216,6 +221,11 @@ button:focus, html input[type="button"]:focus, input[type="reset"]:focus, input[
 }
 
 /* If the templates allow users to change label/input order it'll break */
+.form-item.form-type-checkbox input:focus + label::before {
+  -webkit-box-shadow:0 0 0 4px #fd0;
+  box-shadow:0 0 0 4px #fd0;
+}
+
 .form-item.form-type-checkbox input:checked + label::after {
   opacity: 1;
 }
