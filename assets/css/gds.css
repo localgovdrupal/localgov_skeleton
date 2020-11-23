@@ -52,6 +52,7 @@ label.before span.form-optional-text {
 
 .form-item input,
 .form-item optgroup,
+.facets-widget-dropdown select,
 .form-item select, 
 .form-item textarea {
   border-style: solid;
@@ -64,6 +65,7 @@ label.before span.form-optional-text {
 
 .form-item input:focus,
 .form-item optgroup:focus,
+.facets-widget-dropdown select:focus,
 .form-item select:focus,
 .form-item textarea:focus {
   outline: 0.2em solid #fd0;
