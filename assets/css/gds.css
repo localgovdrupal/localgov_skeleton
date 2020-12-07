@@ -74,13 +74,6 @@ label.before span.form-optional-text {
   box-shadow: inset 0 0 0 0.2em;
 }
 
-.facet-item:focus-within label::before {
-  outline: 0.2em solid #fd0;
-  outline-offset: 0;
-  -webkit-box-shadow: inset 0 0 0 0.2em;
-  box-shadow: inset 0 0 0 0.2em;
-}
-
 .form-item input.error:focus,
 .form-item textarea.error:focus,
 .form-item select.error:focus {
@@ -235,7 +228,7 @@ button:focus, html input[type="button"]:focus, input[type="reset"]:focus, input[
 }
 
 /* If the templates allow users to change label/input order it'll break */
-.facets-widget-checkbox .factet-item input:focus + label::before,
+.facets-widget-checkbox .facet-item input:focus + label::before,
 .form-item.form-type-checkbox input:focus + label::before {
   -webkit-box-shadow:0 0 0 4px #fd0;
   box-shadow:0 0 0 4px #fd0;
