@@ -53,7 +53,7 @@ label.before span.form-optional-text {
 .form-item input,
 .form-item optgroup,
 .facets-widget-dropdown select,
-.form-item select, 
+.form-item select,
 .form-item textarea {
   border-style: solid;
   border-width: 0.15em;
@@ -228,7 +228,7 @@ button:focus, html input[type="button"]:focus, input[type="reset"]:focus, input[
 }
 
 /* If the templates allow users to change label/input order it'll break */
-.facets-widget-checkbox .factet-item input:focus + label::before,
+.facets-widget-checkbox .facet-item input:focus + label::before,
 .form-item.form-type-checkbox input:focus + label::before {
   -webkit-box-shadow:0 0 0 4px #fd0;
   box-shadow:0 0 0 4px #fd0;
