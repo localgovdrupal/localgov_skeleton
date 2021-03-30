@@ -29,13 +29,13 @@
 {% block content %}
 <nav aria-label="Section Navigation">
   <div>
-    {% for button in buttons %}
-      <div>
-        <a href="{{ button.url }}" class="{{ button.type }}">
-          <span>{{ button.title }}</span>
-        </a>
-      </div>
-    {% endfor %}
+  {% for button in buttons %}
+    <div>
+      <a href="{{ button.url }}" class="{{ button.type }}">
+        <span>{{ button.title }}</span>
+      </a>
+    </div>
+  {% endfor %}
   </div>
   <hr />
 </nav>
