@@ -1,7 +1,7 @@
 name: "LocalGov Drupal Skeleton Theme"
 description: "Bare base theme for LocalGov Drupal sites with no styling."
 type: theme
-core_version_requirement: ^8.8 || ^9
+core_version_requirement: ^9 || ^10
 
 base theme: classy
 
