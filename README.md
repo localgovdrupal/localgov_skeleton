@@ -1,4 +1,4 @@
-# LocalGov Drupal Skeleton Theme [DEPRECATED]
+# LocalGov Drupal Skeleton Theme [ARCHIVED]
 
 Note: this theme is no longer actively supported.
 
